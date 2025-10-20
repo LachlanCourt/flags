@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 300 100">
+<style type="text/css">
+	.st0{fill:#8ED8F8;}
+	.st1{fill:#0072BC;}
+	.st2{fill:#F1F2F2;}
+	.st3{fill:#CE181E;}
+	.st4{fill:#FFCB05;}
+	.st5{fill:#F2F2F2;}
+	.st6{font-family:'MyriadPro-Regular';}
+	.st7{font-size:30px;}
+	.st8{font-size:26px;}
+</style>
+<g id="background">
+<g>
+		<polygon class="st2" points="59.7,4.2 59.7,96.2 119.7,92.2 119.7,8.2   "/>
+		<polygon class="st2" points="179.7,12.2 179.7,88.2 239.7,84.2 239.7,16.2   "/>
+		<polygon class="st3" points="0,0 0,100 60,96 60,4   "/>
+		<polygon class="st3" points="120,8 120,92 180,88 180,12   "/>
+		<polygon class="st3" points="299.7,20.2 239.7,16.2 239.7,84.2 299.7,80.2   "/>
+	</g>
+
+</g>
+</svg>
