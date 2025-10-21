@@ -1,4 +1,5 @@
 import { Flag } from "../Flag/Flag";
+import { Flags } from "../Keyboard/flags";
 
 interface DisplayProps {
   showInput?: boolean;
@@ -30,9 +31,15 @@ export const Display = ({
           paddingTop: "2rem",
         }}
       >
-        {value.split("").map((char) => (
-          <Flag flag={char} showLabel={showLabels} />
-        ))}
+        {value
+          .toLowerCase()
+          .split("")
+          .map((char) => (
+            <Flag
+              flag={char === Flags.SPACE ? "" : char}
+              showLabel={showLabels}
+            />
+          ))}
       </div>
     </>
   );

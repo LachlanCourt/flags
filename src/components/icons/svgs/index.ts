@@ -35,3 +35,4 @@ export { default as LETTER_W } from "./w.svg";
 export { default as LETTER_X } from "./x.svg";
 export { default as LETTER_Y } from "./y.svg";
 export { default as LETTER_Z } from "./z.svg";
+export { default as SPACE } from "./space.svg";

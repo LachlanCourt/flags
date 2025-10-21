@@ -17,7 +17,7 @@ export const Flag = ({ flag, showLabel }: FlagProps) => {
       }}
     >
       <img
-        style={{ height: "50px" }}
+        style={{ height: flag !== Flags.SPACE ? "50px" : "100px" }}
         //@ts-ignore
         src={flagsvgs[Object.keys(Flags).find((k) => Flags[k] === flag)]}
       />

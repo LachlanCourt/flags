@@ -41,6 +41,7 @@ export const Keyboard = () => {
     [Flags.ZERO, Flags.ONE, Flags.TWO, Flags.THREE],
     [Flags.FOUR, Flags.FIVE, Flags.SIX, Flags.SEVEN],
     [Flags.EIGHT, Flags.NINE, Flags.EOM],
+    [Flags.SPACE],
   ];
 
   const [value, setValue] = useState("");
