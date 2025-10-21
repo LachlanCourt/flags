@@ -66,3 +66,8 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.display-container {
+  background-color: #242424;
+  padding: "2rem";
+}
