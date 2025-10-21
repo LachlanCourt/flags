@@ -18,9 +18,16 @@ export const Display = ({
 }: DisplayProps) => {
   const container = useRef(null);
 
+  const getScale = () => {
+    const scales = [1, 1, 0.75, 0.5, 0.4, 0.4, 0.3];
+    return scales[Math.floor(value.length / 10)] || 0.1;
+  };
+
   const download = () => {
     if (!container.current) return;
-    html2canvas(container.current).then((element) => {
+    html2canvas(container.current, {
+      scale: getScale(),
+    }).then((element) => {
       const data = element.toDataURL("image/png");
       const downloadLink = document.createElement("a");
       downloadLink.href = data;
@@ -30,7 +37,7 @@ export const Display = ({
       document.body.removeChild(downloadLink);
     });
   };
-
+  console.log(1 / Math.ceil(value.length / 10));
   return (
     <div
       style={{
