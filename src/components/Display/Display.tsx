@@ -15,7 +15,13 @@ export const Display = ({
   showLabels,
 }: DisplayProps) => {
   return (
-    <>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+      }}
+    >
       <input
         value={value}
         onChange={({ target }) => setValue(target.value)}
@@ -41,6 +47,6 @@ export const Display = ({
             />
           ))}
       </div>
-    </>
+    </div>
   );
 };

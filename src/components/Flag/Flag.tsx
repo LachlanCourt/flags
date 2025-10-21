@@ -7,6 +7,15 @@ interface FlagProps {
 }
 
 export const Flag = ({ flag, showLabel }: FlagProps) => {
+  const getHeight = () => {
+    const heights = [15, 50];
+    const size = window.screen.width;
+
+    const base = heights[size < 400 ? 0 : 1];
+    const height = flag !== Flags.SPACE ? base : base * 2;
+    return `${height}px`;
+  };
+
   return (
     <div
       style={{
@@ -17,7 +26,7 @@ export const Flag = ({ flag, showLabel }: FlagProps) => {
       }}
     >
       <img
-        style={{ height: flag !== Flags.SPACE ? "50px" : "100px" }}
+        style={{ height: getHeight() }}
         //@ts-ignore
         src={flagsvgs[Object.keys(Flags).find((k) => Flags[k] === flag)]}
       />
