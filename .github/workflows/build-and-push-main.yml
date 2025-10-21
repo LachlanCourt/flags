@@ -23,5 +23,5 @@ jobs:
         run: echo USER_REPOSITORY=$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]') >> $GITHUB_ENV
       - name: Push Docker Image
         run: |
-          docker tag qwik ghcr.io/${{ env.USER_REPOSITORY }}:latest
+          docker tag flags ghcr.io/${{ env.USER_REPOSITORY }}:latest
           docker push ghcr.io/${{ env.USER_REPOSITORY }}:latest
