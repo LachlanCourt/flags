@@ -37,7 +37,7 @@ export const Display = ({
       document.body.removeChild(downloadLink);
     });
   };
-  console.log(1 / Math.ceil(value.length / 10));
+
   return (
     <div
       style={{
