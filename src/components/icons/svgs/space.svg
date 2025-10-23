@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 500 100">
+<style type="text/css">
+	.st0{fill:#8ED8F8;}
+	.st1{fill:#0072BC;}
+	.st2{fill:#F1F2F2;}
+	.st3{fill:#CE181E;}
+	.st4{fill:#FFCB05;}
+	.st5{fill:#F2F2F2;}
+	.st6{font-family:'MyriadPro-Regular';}
+	.st7{font-size:30px;}
+	.st8{font-size:26px;}
+	.st9{fill:white;}
+</style>
+<g id="background">
+	<g>
+		<text x="200" y="60" textLength="100" class="st6 st7 st9">SPACE</text>
+	</g>
+</g>
+</svg>

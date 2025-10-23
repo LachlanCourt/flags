@@ -36,4 +36,5 @@ export enum Flags {
   LETTER_X = "x",
   LETTER_Y = "y",
   LETTER_Z = "z",
+  SPACE = " ",
 }
